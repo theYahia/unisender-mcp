@@ -1,6 +1,6 @@
 {
   "name": "@theyahia/unisender-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for UniSender API — email lists, campaigns, contacts. API key auth.",
   "type": "module",
   "main": "dist/index.js",
@@ -32,9 +32,22 @@
     "access": "public"
   },
   "keywords": [
-    "mcp", "mcp-server", "model-context-protocol", "modelcontextprotocol",
-    "claude", "ai", "llm", "anthropic", "cursor", "ai-tools", "ai-agent",
-    "russian-api", "unisender", "email", "mailing", "newsletter"
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "modelcontextprotocol",
+    "claude",
+    "ai",
+    "llm",
+    "anthropic",
+    "cursor",
+    "ai-tools",
+    "ai-agent",
+    "russian-api",
+    "unisender",
+    "email",
+    "mailing",
+    "newsletter"
   ],
   "license": "MIT",
   "repository": {
