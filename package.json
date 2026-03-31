@@ -1,14 +1,16 @@
 {
   "name": "@theyahia/unisender-mcp",
   "version": "1.0.1",
-  "description": "MCP server for UniSender API — email lists, campaigns, contacts. API key auth.",
+  "description": "MCP server for UniSender API — lists, contacts, campaigns, templates, statistics. 10 tools, Streamable HTTP, skills.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
     "unisender-mcp": "dist/index.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "smithery.yaml",
+    "skills"
   ],
   "engines": {
     "node": ">=18.0.0"
@@ -17,16 +19,19 @@
     "build": "tsc",
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js",
-    "prepublishOnly": "npm run build"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build && npm test"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
     "zod": "^3.24.0"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
+    "@types/node": "^22.19.15",
     "tsx": "^4.19.0",
-    "typescript": "^5.7.0"
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.2"
   },
   "publishConfig": {
     "access": "public"
@@ -47,7 +52,11 @@
     "unisender",
     "email",
     "mailing",
-    "newsletter"
+    "newsletter",
+    "email-marketing",
+    "smtp",
+    "campaign",
+    "templates"
   ],
   "license": "MIT",
   "repository": {
