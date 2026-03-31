@@ -55,5 +55,6 @@
     "url": "https://github.com/theYahia/unisender-mcp.git"
   },
   "homepage": "https://github.com/theYahia/unisender-mcp#readme",
-  "author": "theYahia (https://github.com/theYahia)"
+  "author": "theYahia (https://github.com/theYahia)",
+  "mcpName": "io.github.theYahia/unisender-mcp"
 }
