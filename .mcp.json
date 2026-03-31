@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "unisender": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@theyahia/unisender-mcp"
+      ],
+      "env": {
+        "UNISENDER_API_KEY": "YOUR_TOKEN"
+      }
+    }
+  }
+}
