@@ -1,6 +1,6 @@
 {
   "name": "@theyahia/unisender-mcp",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "MCP server for UniSender API — lists, contacts, campaigns, templates, statistics. 10 tools, Streamable HTTP, skills.",
   "type": "module",
   "main": "dist/index.js",
