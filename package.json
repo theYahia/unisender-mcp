@@ -1,7 +1,7 @@
 {
   "name": "@theyahia/unisender-mcp",
   "version": "1.1.0",
-  "description": "MCP server for UniSender API — lists, contacts, campaigns, templates, statistics. 10 tools, Streamable HTTP, skills.",
+  "description": "MCP server for UniSender — email campaigns, newsletters (Russia)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -56,7 +56,10 @@
     "email-marketing",
     "smtp",
     "campaign",
-    "templates"
+    "templates",
+    "api",
+    "typescript",
+    "marketing"
   ],
   "license": "MIT",
   "repository": {
